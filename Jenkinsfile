@@ -17,7 +17,7 @@ pipeline {
         
         stage('Trivy') {
             steps {
-                 sh "trivy fs ."
+                 sh "trivy fs ." 
             }
         }
         
